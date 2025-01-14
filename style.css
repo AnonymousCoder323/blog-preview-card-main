@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Figtree';
+  src: url('./assets/fonts/Figtree-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: 'Figtree';
+  src: url('./assets/fonts/Figtree-Italic-VariableFont_wght.ttf');
+  font-style: italic;
+}
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* VARIABLES */
+:root {
+  /* Did I use the right names for the variables? */
+  --primary-color: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --text-primary-color: hsl(0, 0%, 7%);
+  --text-secondary-color: hsl(0, 0%, 42%);
+}
+
+body {
+  font-family: 'Figtree';
+  min-height: 100vh;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
