@@ -3,12 +3,6 @@
   src: url('./assets/fonts/Figtree-VariableFont_wght.ttf');
 }
 
-@font-face {
-  font-family: 'Figtree';
-  src: url('./assets/fonts/Figtree-Italic-VariableFont_wght.ttf');
-  font-style: italic;
-}
-
 /* RESET */
 * {
   margin: 0;
