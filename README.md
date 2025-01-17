@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/responsive-blog-preview-card-using-clamp-for-responsive-font-size-q-kHdUM9Ww)
 - [Live Site URL](https://anonymouscoder323.github.io/blog-preview-card-main/)
 
 ## My process
