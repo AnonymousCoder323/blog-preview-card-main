@@ -16,6 +16,10 @@
   box-sizing: border-box;
 }
 
+a {
+  all: unset;
+}
+
 /* VARIABLES */
 :root {
   /* Did I use the right names for the variables? */
@@ -76,6 +80,12 @@ body {
 .blog-preview-card__title {
   font-size: clamp(1.25rem, 1.048rem + 0.86vw, 1.5rem);
   font-weight: 800;
+  width: max-content;
+}
+
+.blog-preview-card__title_link:is(:hover, :focus) {
+  cursor: pointer;
+  color: var(--primary-color);
 }
 
 .blog-preview-card__description {
@@ -99,4 +109,7 @@ body {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+  cursor: pointer;
+  text-decoration: underline;
+  outline: revert;
 }
