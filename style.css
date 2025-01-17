@@ -87,7 +87,7 @@ body {
   color: var(--text-secondary-color);
 }
 
-.blog-preview-card__author {
+.blog-preview-card__footer {
   display: flex;
   gap: 0.75rem;
   align-items: center;

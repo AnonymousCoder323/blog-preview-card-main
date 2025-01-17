@@ -14,29 +14,34 @@
 
 <body>
   <main>
-    <div class="blog-preview-card">
+    <article class="blog-preview-card">
       <img src="assets/images/illustration-article.svg" alt="Blog preview image" class="blog-preivew-card__image">
       <div class="blog-preview-card__content">
-        <p class="blog-preview-card__category">
-          Learning
-        </p>
-        <p class="blog-preview-card__publish-date">
-          Published 21 Dec 2023
-        </p>
-        <h1 class="blog-preview-card__title">
-          <a class="blog-preview-card__title_link" href="#">HTML &amp CSS foundations</a>
-        </h1>
+        <header>
+          <p class="blog-preview-card__category">
+            Learning
+          </p>
+          <time class="blog-preview-card__publish-date" datetime="2023-12-21">
+            Published 21 Dec 2023
+          </time>
+          <h1 class="blog-preview-card__title">
+            <a class="blog-preview-card__title_link" href="#">HTML &amp CSS foundations</a>
+          </h1>
+        </header>
+
         <p class="blog-preview-card__description">
           These languages are the backbone of every website, defining structure, content, and presentation.
         </p>
       </div>
-      <div class="blog-preview-card__author">
+
+      <footer class="blog-preview-card__footer">
         <img src="assets/images/image-avatar.png" alt="Greg Hooper profile image" width="32" height="32">
         <p>
           Greg Hooper
         </p>
-      </div>
-    </div>
+      </footer>
+    </article>
+
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="https://www.frontendmentor.io/profile/AnonymousCoder323">Anonymous Coder</a>.
