@@ -18,7 +18,7 @@ a {
 :root {
   /* Did I use the right names for the variables? */
   --primary-color: hsl(47, 88%, 63%);
-  --white: hsl(0, 0%, 100%);
+  --background-white: hsl(0, 0%, 100%);
   --text-primary-color: hsl(0, 0%, 7%);
   --text-secondary-color: hsl(0, 0%, 42%);
   --border-color: hsl(0, 0%, 7%);
@@ -34,7 +34,7 @@ body {
 }
 
 .blog-preview-card {
-  background-color: var(--white);
+  background-color: var(--background-white);
   width: min(384px, 87.2vw);
   display: flex;
   flex-direction: column;
